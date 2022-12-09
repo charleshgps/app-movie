@@ -1,0 +1,166 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#full-page {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+header img {
+    width: 200px;
+}
+
+.social-icons a {
+    color: #ffffff;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+h1 {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+    margin: 50px 30px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+form input {
+    padding: 20px;
+    font-size: 18px;
+    width: 500px;
+    border: none;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #ee1c27;
+    border: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+form button:hover {
+    opacity: 0.2;
+    transition: 0.5s;
+}
+
+#show-name {
+    font-size: 12px;
+    font-style: italic;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    right: 20px;
+}
+
+footer img {
+    width: 100px;
+    float: right;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 0;
+}
+
+@media (max-width:930px) {
+    header {
+        padding: 20px;
+    }
+
+    header img {
+        width: 150px;
+    }
+
+    #social-icons a {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p,
+    form input,
+    form button {
+        font-size: 16px;
+    }
+
+    form input {
+        padding: 15px 10px;
+        width: 430px;
+    }
+
+    form button {
+        padding: 15px 10px;
+    }
+}
+
+@media (max-width:630px) {
+
+    form input,
+    form button {
+        font-size: 14px;
+        display: block;
+        width: 380px;
+        margin-bottom: 5px;
+
+    }
+}
+
+@media (max-width:400px) {
+    header img {
+        width: 120px;
+    }
+
+    #social-iscons {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    form input,
+    form button {
+        font-size: 12px;
+        width: 320px;
+    }
+}
